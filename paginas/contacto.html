@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../imagenes/html-5.png">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="quienes-somos.html">Quienes somos</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Contacto</h1>
+        <img src="../imagenes/paisaje.jpg" alt="Paisaje">
+    </section>
+
+    <section>
+        <form action="">
+            <div>
+                <label for="name">Ingrese su nombre:</label>
+                <input placeholder="Juán Pérez" name="name" id="name" type="text" required>
+            </div>
+            <div>
+                <label for="email">Ingrese su email:</label>
+                <input placeholder="correo@correo.com" name="email" id="email" type="email" required>
+            </div>
+            <div>
+                <label for="talles">Seleccione su talle:</label>
+                <select name="talles">
+                    <option value="L">Large</option>
+                    <option value="M">Medium</option>
+                    <option value="S">Small</option>
+                </select>
+            </div>
+            <div>
+                <label for="color">Azul</label>
+                <input type="radio" name="color" value="azul" />
+                <label for="color">Rojo</label>
+                <input type="radio" name="color" value="rojo" />
+                <label for="color">Verde</label>
+                <input type="radio" name="color" value="verde" />
+            </div>
+            <div>
+                <label for="consulta">Deje su consulta:</label>
+                <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="terms">Acepta términos y condiciones</label>
+                <input type="checkbox" name="terms"/>
+            </div>
+            <div>
+                <input type="reset" value="Limpiar formulario">
+                <input type="submit" value="Enviar consulta">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>Sitio desarrollado por...</p>
+    </footer>
+</body>
+</html>
